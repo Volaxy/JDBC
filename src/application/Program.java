@@ -41,6 +41,9 @@ public class Program {
 		sel.setName("Marta");
 		sellerDao.update(sel);
 		
+		System.out.println("\nTEST 6");
+		sellerDao.deletById(3);
+		
 	}
 
 }
